@@ -1,0 +1,62 @@
+main {
+    
+}
+main hr{
+    border-top: 1px ;
+    margin: 20px
+}
+#banner{
+    /*height: 100%;
+    min-height: 280px;
+    max-height: 600px;
+    background-image: url(../../banner2.png);
+    background-position: 0px 98px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    */
+    
+}
+#frames {
+    margin: 0;
+    width: 100%;
+    display: table;
+    position: relative;
+    height: 50%;
+}
+#frames div{
+    position: relative;
+    top:98px;
+    width:25%;
+    display: block;
+    float: left;
+    border:1px solid silver;
+    margin: 0px;
+}
+section{
+    padding: 20px;
+    margin:0px auto 0px;
+    background-color: beige;
+    
+}
+ article{
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+img#tradicao{
+    height: 70px;
+    width: 145px;
+    
+    display: block;
+}
+
+
+
+.destaque{
+    font-size: 16px;
+    color: #2c543d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
