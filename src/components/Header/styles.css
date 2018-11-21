@@ -66,9 +66,9 @@ header{
     header span { 
       
       background: black;
-      height: 4px;
+      height: 3px;
       width: 25px;
-      margin: 3px;
+      margin: 4px;
       display: block;
       border-radius: 3px;
     }
@@ -76,12 +76,13 @@ header{
   #menumobile{
     position: fixed;
     display: block;
-    background: #2c543d;
+    background: #2c543dee;
     height: 100%;
-    width: 75%;
+    width: 60%;
     margin: 0;
-    left: 75%;
-    top: 0px;
+    left: -0%;
+    top: 59px;
+
   }
   #menumobile nav{
   

@@ -21,12 +21,14 @@ export default class Header extends Component{
             <span></span>
             <span></span>
         </div>
-        <div id="menumobile" style={{left: this.state.left}}>
+        <div id="menumobile" >
             <nav>
                 <ul>
-                    <li>
-                        <button id="fechar" onClick={this.activeMobileMenu('-75%')}>FECHAR</button>
-                    </li>
+                    {
+                    //<li>
+                    //    <button id="fechar" onClick={this.activeMobileMenu('-75%')}>FECHAR</button>
+                    //</li>
+                    }
                     <li>
                         <a href="">Sobre</a>
                     </li>
@@ -61,7 +63,9 @@ export default class Header extends Component{
             </ul>
         </nav>
         </div>
-        <p style={{float: "right"}}>{this.state.left}</p>
+       {
+           // <p style={{float: "right"}}>{this.state.left}</p>
+       }
     </header>
     )
  };
